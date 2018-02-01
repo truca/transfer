@@ -1,0 +1,18 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<h2>CLP</h2>
+
+<ul>
+  <% @clp.each do |e| %>
+    <li><%= e.price %></li>
+  <% end %>
+</ul>
+
+<h2>USD</h2>
+
+<ul>
+  <% @usd.each do |e| %>
+    <li><%= e.price %></li>
+  <% end %>
+</ul>
