@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#react
+gem 'webpacker'
+gem 'react-rails'
 # Scheduled tasks
 gem 'rufus-scheduler'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

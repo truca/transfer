@@ -5,7 +5,7 @@ scheduler = Rufus::Scheduler.new
 
 last_update = nil
 
-scheduler.every '5s' do
+scheduler.every '15s' do
   url = URI.parse('http://api.coindesk.com/v1/bpi/currentprice/CLP.json')
   req = Net::HTTP::Get.new(url.to_s)
   res = Net::HTTP.start(url.host, url.port) {|http|
