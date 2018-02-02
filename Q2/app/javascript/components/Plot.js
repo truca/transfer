@@ -13,15 +13,11 @@ class Plot extends React.Component {
 
     let res = Object.keys(grouped).map(key => grouped[key].reduce((acc, point) => Object.assign({}, acc, { [point.currency.toLowerCase()]: point.price }), { name: new Date(key).getTime() }))
       
-      
-      /*(grouped[key].map( point => ({ [point.currency.toLowerCase()]: point.price }) )).reduce(merge, { name: key } ) )
-      .reduce( merge, {} )*/
-    
-    console.log("res", res)
+    console.log("res", res, this.props.data)
 
     return (
       <div>
-        <LineChart width={730} height={250} data={data}
+        <LineChart width={730} height={250} data={res}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
