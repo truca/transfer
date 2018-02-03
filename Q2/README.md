@@ -1,24 +1,22 @@
-# README
+#Instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Requirements
 
-Things you may want to cover:
+- Ruby on Rails v5.1.4
+- NodeJS v7.6.0
+- yarn
+- sqlite configured for it's use with RoR
 
-* Ruby version
+##Steps
 
-* System dependencies
+- run this commands on this folder
 
-* Configuration
+````
+yarn && rails serve
+````
 
-* Database creation
+open a browser window in this URL
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+````
+http://localhost:3000
+````
