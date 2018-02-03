@@ -1,13 +1,13 @@
-#Instructions
+# Instructions
 
-##Requirements
+## Requirements
 
 - Ruby on Rails v5.1.4
 - NodeJS v7.6.0
 - yarn
 - sqlite configured for it's use with RoR
 
-##Steps
+## Steps
 
 - run this commands on this folder
 
