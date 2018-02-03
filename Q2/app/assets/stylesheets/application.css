@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+html, body{
+  height: 100%;
+  margin: 0;
+  background-color: beige;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+body > div{
+  height: 100%;
+}
